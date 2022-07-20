@@ -1,0 +1,2 @@
+This is written in io-redirect to  file
+anything I write here prints in my txt file demn :)
