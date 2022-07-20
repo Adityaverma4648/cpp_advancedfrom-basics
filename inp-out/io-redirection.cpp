@@ -24,7 +24,8 @@ using namespace std;
            cout.rdbuf(stream_buffer_cout);
            cout << "This is written to the screen" << endl;
            // error streams 
-           
+               // cerr -Non buffered error stream
+               // clog - buffered error stream
            file.close();
 
     return 0;
