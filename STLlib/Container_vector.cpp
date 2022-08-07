@@ -9,7 +9,7 @@ int main(){
 
    //stack , queue , priority_queue - container adaptors
 
-// 01                                      array
+// 01                   array - static contiguous sequences 
  
 
     array <int ,6> arr = {1,2,3,4,5,6};
@@ -36,8 +36,40 @@ int main(){
        cout << arr[j] << " ";
     }
     cout << endl;
+
+    // 04. Using frant() and back()
+    cout << "the first element of array arr[] is - " << arr.front() << endl;
+    // back()
+    cout << "the last element of array arr[] is - " << arr.back() << endl;     
      
-     
+    // 05. Using size() , max_size() 
+
+    cout << "the size of array arr is - " << arr.size() << endl;
+    cout << "the maximum size of array arr is - " << arr.max_size() << endl;    
+
+
+    // 06. empty() - boolresults , fill() , swap()
+
+    array <int , 0> arr2;
+    if(arr2.empty()){
+        cout << "Empty";
+    }
+    else 
+        cout << "Non-Empty"; 
+    array <int , 6> arr1;
+    arr1.fill(0);
+    cout << "Traversing after a fill implicit fun used" << endl;
+    for (int i = 0; i < arr1.size(); i++)
+    {
+        /* code */
+        cout << arr1[i] << " ";
+    }
+    cout << endl;
+
+
+//  array conatiner ends here................
+
+
 
 
 
