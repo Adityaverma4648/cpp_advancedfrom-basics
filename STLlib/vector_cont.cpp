@@ -75,9 +75,6 @@ cout << "empty = " << g1.empty() << endl;
 
           // insert()
         //  modifyTest.insert(3,89);
-
-        
-
     return 0;
 }
 
